@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+body{
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+}
+
+.nav-nuel{
+    margin-right: 50px;
+}
+
+.nav-img{
+    color: white !important;
+}
+
+.nav-link{
+    color: whitesmoke !important;
+}
+
+.nav-item{
+    padding-left: 30px !important;
+}
+
+.div-container{
+    text-align: center;
+    color: whitesmoke;
+    /* padding: 100px; */
+}
+
+.div-container h2{
+    text-align: center;
+    color: whitesmoke;
+    font-family: century gothic;
+}
+
+.div-container img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 50%;
+    right: 1rem;
+    top: 1rem;
+}
+
+.div-container a{
+    color: whitesmoke;
+}
+
+h2{
+    padding-top: 10px;
+    font-size: 4rem;
+}
+
+footer{
+    padding-top: 70px;
+    
+}
+
+.nuel-footer{
+    color: whitesmoke !important;
+    font-style: italic;
+    font-family: century gothic;
+    font-size: small;
+}
+
+
+@media screen and (max-width: 380px){
+    .nav-img{
+        color: white !important;
+    }
+    
+    .nav-link{
+        color: whitesmoke !important;
+    }
+    
+    .nav-item{
+        padding-left: 10px !important;
+    }
+    
+    .div-container{
+        text-align: center;
+        color: whitesmoke;
+        /* padding: 100px; */
+    }
+    
+    .div-container h2{
+        text-align: center;
+        color: whitesmoke;
+        font-family: century gothic;
+    }
+    
+    .div-container img{
+        height: 250px;
+        width: 250px;
+        position: relative;
+        border-radius: 50%;
+        right: 0rem;
+        top: 0rem;
+    }
+    
+    .div-container a{
+        color: whitesmoke;
+    }
+    
+    h2{
+        padding-top: 5px;
+        font-size: 2rem;
+    }
+    
+    footer{
+        padding-top: 30px;
+        
+    }
+    
+    .nuel-footer{
+        color: whitesmoke !important;
+        font-style: italic;
+        font-family: century gothic;
+        font-size: small;
+    }
+    
+}

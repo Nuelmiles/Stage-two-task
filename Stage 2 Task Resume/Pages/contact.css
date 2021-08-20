@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container h1{
+    padding-left: 60px;
+}
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+form{
+    margin-bottom: 30px;
+}
+
+.container a{
+    color: black;
+}
